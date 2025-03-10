@@ -129,27 +129,30 @@
 #             ... -2 -1
 
 string = 'hello world'
-print(string[0])  # h 
-print(string[10]) # d
-print(string[-1]) # d 
-print(string[5]) # 'пробел' ''
 
-# срез - подстрока строки (часть строки) str[start:end;step]
+print(string.join())
 
-print(string[2:5]) # llo
-print(string[0:4]) # hell
-print(string[4:]) # o world 
-print(string[:]) # hello world 
-print(string[ : :2]) # hlowrd
-print(string[ : :-1])  # dlrow olleh 
-print(string[ -5:-1: ]) # worl 
-print(string[-1:-5:-1]) #dlro 
+# print(string[0])  # h 
+# print(string[10]) # d
+# print(string[-1]) # d 
+# print(string[5]) # 'пробел' ''
 
-# print('helo'[:3].replace('')) 
+# # срез - подстрока строки (часть строки) str[start:end;step]
 
-str10 = 'hello'
-print(str10.replace('h', 'd')) # dello 
-print(str10) # hello
+# print(string[2:5]) # llo
+# print(string[0:4]) # hell
+# print(string[4:]) # o world 
+# print(string[:]) # hello world 
+# print(string[ : :2]) # hlowrd
+# print(string[ : :-1])  # dlrow olleh 
+# print(string[ -5:-1: ]) # worl 
+# print(string[-1:-5:-1]) #dlro 
+
+# # print('helo'[:3].replace('')) 
+
+# str10 = 'hello'
+# print(str10.replace('h', 'd')) # dello 
+# print(str10) # hello
 
 
 

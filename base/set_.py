@@ -68,6 +68,7 @@
 list1 = [1,2,3]
 tuple1 = (1, 2, 3, 2, 4, 2)
 
+
 # print(tuple1.index(3)) # 2
 
 # print(dir(tuple1))
